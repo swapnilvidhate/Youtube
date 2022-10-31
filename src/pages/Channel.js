@@ -153,6 +153,7 @@ const Channel = () => {
   }
 
   return (
+    <>
     <Wrapper editProfile={profile.isMe}>
       <div className="cover">
         <img src={profile.cover} alt="channel-cover" />
@@ -227,6 +228,7 @@ const Channel = () => {
         {tab === "CHANNELS" && <ChannelTabChannels />}
       </div>
     </Wrapper>
+         </>
   );
 };
 
